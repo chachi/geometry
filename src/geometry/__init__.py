@@ -1,4 +1,8 @@
-__version__ = '0.10.0'
+__version__ = '0.11.0'
+
+# If you want to be safe
+# import numpy as np
+# np.seterr(all='err')
 
 from .formatting import *
 from .basic_utils import *
